@@ -1,0 +1,61 @@
+body {
+    background: url(../images/background3.jpeg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.error{
+    color: red;
+    /* margin-bottom: 30px; */
+}
+
+.header h1 {
+    font-size: 45px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: #FFFFFF;
+}
+
+.sign-wrap {
+    background-color: rgba(100, 173, 195, .9);
+    border-radius: 10px;
+}
+
+.sign-wrap {
+    vertical-align: middle;
+}
+
+.login {
+    width: 45%;
+    float: left;
+    text-align: left;
+    padding-right: 40px;
+}
+
+.register {
+    width: 44%;
+    float: left;
+    border-left: 2px solid rgba(238, 245, 244, 0.41);
+    padding-left: 40px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 93.4%;
+    margin-bottom: 20px;
+    padding: 10px;
+    float: left;
+    background-color:aliceblue;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+}
+
+
+
+.btn-submit {
+    background-color: rgb(31, 41, 41);
+    border: 0;
+    color: #fff;
+}

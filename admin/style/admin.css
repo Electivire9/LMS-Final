@@ -1,0 +1,93 @@
+body{
+    background-color: grey;
+    background: url(../../images/background3.jpeg) no-repeat center fixed;
+    background-size: cover;
+}   
+.error{
+    color: red;
+}
+.header{
+    padding:0;
+}
+.brand {
+    margin-left: 2vh;
+}
+
+#sidebar {
+   margin-top: 10vh;
+}
+
+#sidebar .nav-item {
+    text-align: left;
+    border-bottom: 1px solid aliceblue;
+    border-radius: 10px;
+}
+
+#sidebar .nav-item a {
+    background-color: rgba(100, 173, 195, .9);
+    padding: 20px;
+    color: rgba(31, 66, 78, .9);
+    border-radius: 10px;
+
+}
+
+#sidebar a.active,
+#sidebar a:hover {
+    color: aliceblue;
+
+}
+.card{
+    margin-top: 10vh;
+    background-color: #fff;
+    display: block;
+    border: 0px;
+}
+.card-img-top{
+   text-align: center;
+}
+.card-body {
+	padding: 20px;
+	background: rgba(100, 173, 195, .9);
+	text-align: left;
+    color: rgba(31, 66, 78, .7);
+    border-radius: 0 0 5px 5px;
+
+
+}
+
+.footer{
+    background-color: #fff;
+    height:8vh;
+}
+
+.searchbar{
+    margin-top: 10vh;
+}
+.btn-search{
+    background-color:rgba(100, 173, 195, .9) ;
+    border: 0;
+    color: #fff;
+}
+.btn a{
+    text-decoration: none;
+    border: 0;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 93.4%;
+    margin-bottom: 10px;
+    padding: 10px;
+    float: left;
+    background-color:aliceblue;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+}
+
+.table-head{
+    background-color: rgba(100, 173, 195, .9);
+    
+}
